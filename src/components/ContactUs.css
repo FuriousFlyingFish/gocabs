@@ -1,0 +1,140 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo h1 {
+    display: inline;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: inline;
+    float: right;
+    margin-top: -30px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover, header nav ul li a.signup-btn {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Contact Us Section */
+.contact-us {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Adjust based on content */
+}
+
+.contact-us .container {
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text */
+}
+
+.contact-us h2 {
+    margin-bottom: 20px;
+}
+
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align form elements */
+}
+
+.contact-us label {
+    margin: 10px 0 5px;
+    width: 100%; /* Full width for alignment */
+    text-align: left; /* Align labels to the left */
+}
+
+.contact-us input, .contact-us textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%; /* Full width for alignment */
+    max-width: 400px; /* Limit width */
+}
+
+.contact-us button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width for alignment */
+    max-width: 200px; /* Limit width */
+}
+
+.contact-us button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer .social-media li {
+    margin: 0 10px;
+}
+
+footer .social-media li a {
+    color: #fff;
+    text-decoration: none;
+}
